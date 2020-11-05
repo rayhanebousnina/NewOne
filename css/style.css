@@ -1,13 +1,6 @@
 
-.nav-item {
-    color: #000000;
-    text-decoration: none;
-    font-size: 1.2rem;
-    background-color: transparent;
-}
-  
 .nav-item:hover {
-    background-color: #f80707a2;
+    background-color: red;
     text-decoration: none;
     border-radius: 0.5rem;
 }
@@ -20,7 +13,7 @@
     font-weight: bold;
 }
 .chiffre:hover {
-    background-color: rgba(255, 0, 0, 0.466);    
+    background-color: rgba(243, 57, 66, 0.89);    
     border-radius: 0.3rem;
 }
 .bg-category {
@@ -34,4 +27,15 @@
 .team:hover {
     height: 10rem;
     width: auto;
+}
+.bg-img {
+    background-color: rgb(226, 216, 218);
+    
+    border-radius: 1.2rem;
+}
+.opac {    
+    opacity: 1.0;
+}
+.opac:hover {
+    opacity: 0.5;
 }
