@@ -9,54 +9,156 @@
     <title>Need4Sport</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="images/logo_transparent.png" alt="" height="60rem" width="auto"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-            <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="about.html">A propos</a>
-            </li>        
-            <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-        </div>
+      <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="images/logo_transparent.png" alt="" height="60rem" width="auto"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Catégories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="football.html">Terrains de football</a>
+            <a class="dropdown-item" href="#">Terrains de tennis</a>            
+            <a class="dropdown-item" href="#">Terrains de handball</a>
+            <a class="dropdown-item" href="#">Terrains de basketball</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">A propos</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!-- ./Navbar -->
-  <!-- footer -->
-  <div class="container-fluid text-white bg-dark">
+
+  <!-- formulaire contact -->
+  <div class="container">
+    <div class="row mt-5">
+        <h3 class="">Nous contactez</h3>
+    </div>
+    <div class="row mb-5 mt-5">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputFirstName">Nom</label>
+                    <input type="text" class="form-control" id="exampleInputFirstName">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputLasttName">Prénom</label>
+                    <input type="text" class="form-control" id="exampleInputLastName">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Adresse Mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Mot de passe</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-success">Envoyer</button>
+            </form>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+</div>
+<!-- ./formulaire contact -->
+
+<!-- Map -->
+<div class="container">
+    <div class="col-md-12 mt-5 mb-5">
+        <h3>Retrouvez-nous sur Google map !</h3>
+    </div>
+</div>
+<hr>
+<div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=les%20berges%20du%20lac+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+<hr>
+<!-- ./Map -->
+
+
+<!-- footer -->
+<div class="container-fluid text-white bg-dark pt-5 pb-3">
     <div class="row">
       <div class="col-md-1">
 
       </div>
       <div class="col-md-3">
-        <h2 class="mb-5">Follow-us</h2>
-        <div class="">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>          
+        <div class="row">
+          <h2 class="mb-5 ml-5 px-2">Suivez-nous</h2>
+        </div>        
+        <div class="d-flex justify-content-center">
+          <div class="row w-50 d-flex justify-content-center">
+            <div class="col-md-6 text-center">
+              <i class="fab fa-facebook-f fa-2x"></i>
+            </div>
+            <div class="col-md-6 text-center">  
+              <i class="fab fa-instagram fa-2x"></i>
+            </div>                    
+          </div>
         </div>
       </div>
       <div class="col-md-4">
 
       </div>
       <div class="col-md-3">
-        <h2 class="mb-3">Adresse</h2>
-        <p>Get our best services by contacting us:</p>        
+        <div class="row"> 
+          <h2 class="mb-3">Adresse</h2>
+        </div>        
+        <div class="row">
+          <p>Bénéficiez de nos meilleurs services en nous contactant:</p>
+        </div>
+        <div class="row"> 
+          <div class="col-md-3"> 
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="col-md-9">
+            +216 24 135 775
+          </div>
+        </div>  
+        <div class="row py-3"> 
+          <div class="col-md-3"> 
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="col-md-9">
+            Rue Hana Cité Amen Les berges du Lac 2064
+          </div>
+        </div>                
       </div>
       <div class="col-md-1">
 
       </div>
     </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          Copyright 2020 Need4Sport
+        </div>
+    </div>
   </div>
   <!-- ./footer -->
+
+
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
