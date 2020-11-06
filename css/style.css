@@ -1,44 +1,47 @@
-
 .nav-item:hover {
-    background-color: red;
-    text-decoration: none;
-    border-radius: 0.5rem;
+  background-color: rgba(229, 243, 39, 0.959);
+  text-decoration: none;
+  border-radius: 0.5rem;
 }
 .bg-noir {
-    background-color: #00000071;
-    border-radius: 0.4rem;
+  background-color: #00000071;
+  border-radius: 0.4rem;
 }
 .number {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .chiffre:hover {
-    background-color: rgba(243, 57, 66, 0.89);    
-    border-radius: 0.3rem;
+  background-color: rgba(229, 243, 39, 0.959);
+  color: black;
+  border-radius: 0.3rem;
 }
 .bg-category {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 #rounded {
-    border-radius: 50%;
-    height: 8rem;
-    width: auto;
+  border-radius: 50%;
+  height: 8rem;
+  width: auto;
 }
 .team:hover {
-    height: 10rem;
-    width: auto;
+  height: 10rem;
+  width: auto;
 }
 .bg-img {
-    background-color: rgb(226, 216, 218);
-    
-    border-radius: 1.2rem;
+  background-color: rgb(226, 216, 218);
+
+  border-radius: 1.2rem;
 }
-.opac {    
-    opacity: 1.0;
+.opac {
+  opacity: 1;
 }
 .opac:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 .star {
-    color: yellow;
+  color: yellow;
+}
+.bg-title {
+  background-color: rgb(240, 215, 240);
 }
