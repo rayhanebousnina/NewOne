@@ -39,3 +39,6 @@
 .opac:hover {
     opacity: 0.5;
 }
+.star {
+    color: yellow;
+}
