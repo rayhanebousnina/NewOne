@@ -24,6 +24,9 @@
   height: 8rem;
   width: auto;
 }
+#rounded:hover {
+    opacity: 0.5;
+}
 .team:hover {
   height: 10rem;
   width: auto;
