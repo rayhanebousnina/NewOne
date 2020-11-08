@@ -4,7 +4,7 @@
   border-radius: 0.5rem;
 }
 .bg-noir {
-  background-color: #00000071;
+  background-color: #000000c0;
   border-radius: 0.4rem;
 }
 .number {
@@ -47,4 +47,8 @@
 }
 .bg-title {
   background-color: rgb(240, 215, 240);
+}
+#partenaire {
+  height: 10rem;
+  width: 8rem;
 }
