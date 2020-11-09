@@ -1,5 +1,5 @@
 .nav-item:hover {
-  background-color: rgba(229, 243, 39, 0.959);
+  background-color: #ffc107;
   text-decoration: none;
   border-radius: 0.5rem;
 }
@@ -12,7 +12,7 @@
   font-weight: bold;
 }
 .chiffre:hover {
-  background-color: rgba(229, 243, 39, 0.959);
+  background-color: #ffc107;
   color: black;
   border-radius: 0.3rem;
 }
@@ -25,7 +25,7 @@
   width: auto;
 }
 #rounded:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 .team:hover {
   height: 10rem;
@@ -40,7 +40,7 @@
   opacity: 1;
 }
 .opac:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .star {
   color: yellow;
@@ -51,4 +51,28 @@
 #partenaire {
   height: 10rem;
   width: 8rem;
+}
+#lien {
+  text-decoration: none;
+  color: rgb(65, 62, 62);
+  font-weight: bold;
+}
+#lien2 {
+  text-decoration: none;
+  color: white;
+}
+.insta {
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.youtube {
+  color: #CC181E; 
+}
+.facebook {
+  color: #2D609B;
 }
