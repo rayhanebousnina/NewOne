@@ -9,7 +9,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
       rel="stylesheet"
     />
-    <title>Need4Sport</title>
+    <link rel="icon" type="image/png" href="/images/2rayhane.png" />
+    <title>NeedForSport</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -35,10 +36,13 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto pr-5">
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="index.html"
-              >Accueil<span class="sr-only">(current)</span></a
+              >Accueil</a
             >
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">A propos</a>
           </li>
           <li class="nav-item dropdown active">
             <a
@@ -62,33 +66,33 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">A propos</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- ./Navbar -->
-
-    <!-- Catégorie Football -->
+    <br>
+    <br>
+    <br>
+    <!-- Catégorie Tennis -->
     <div class="container my-5">
-        <div class="row my-4"><h3>Les terrains de tennis</h3></div>
+      <div class="row my-4 d-flex justify-content-center"><h1 style="font-family: 'Changa', sans-serif">Les terrains de Tennis</h1></div>
         <div class="row">
             <div class="col-md-12">
-            <div class="card mb-3" style="max-width: 1080px">
+            <div class="card mb-3" style="max-width: 1080px" id="carte-color">
                 <div class="row no-gutters">
                 <div class="col-md-4">
                     <img
                     src="images/tennis/cesar-gutierrez-otO3MXSXe4w-unsplash.jpg"
                     class="card-img"
                     alt="..."
+                    style="height: 20rem;"
                     />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                    <h5 class="card-title">Tennis Club de Carthage</h5>
+                    <h5 class="card-title" style="font-family: 'Changa', sans-serif">Tennis Club de Carthage</h5>
                     <p class="card-text">
                         Le tennis club de Carthage a été fondé en 1942. Très bien  situé à Carthage il bénéficie d’une vue formidable sur le  golfe de Tunis.
                     </p>
@@ -99,20 +103,117 @@
                     <p class="card-text">
                         <div class="row">
                             <div class="col-md-5"></div>
-                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>15Dt/heure</div>
+                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>15 TND / heure</div>
                         </div>
                         <div class="row">
                             <div class="col-md-5"></div>
                             <div class="col-md-7"><i class="fas fa-map-marker-alt pr-3"></i> Rue de la République, Carthage
 
-                                ITINÉRAIRE</div>
+                            </div>
                         </div>
                         <div class="row">
                         <div class="col-md-5"></div>
                         <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i>71 734 129</div>
                         </div>
-                        <div class="row mt-3 mr-3 d-flex justify-content-end">                        
-                        <button class="btn btn-outline-primary btn-sm">Réserver ce terrain</button>
+                        <div class="row mt-3 mr-3 d-flex justify-content-end">          
+                        <!-- Button trigger modal -->                   
+                      <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#exampleModal1">Réserver ce terrain</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Réserver ce terrain</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <form>
+                                  <div class="row">
+                                    <div class="col">
+                                      <div class="form-group">
+                                        <label for="exampleInputFirstName">Nom</label>
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          id="exampleInputFirstName"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="form-group">
+                                        <label for="exampleInputLasttName">Prénom</label>
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          id="exampleInputLastName"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col">
+                                      <div class="form-group">
+                                        <label for="exampleInputEmail1">Adresse mail</label>
+                                        <input
+                                          type="email"
+                                          class="form-control"
+                                          id="exampleInputEmail1"
+                                          aria-describedby="emailHelp"
+                                        />
+                                      </div>
+                                    </div>                                      
+                                  </div> 
+                                  <div class="form-group">
+                                    <label for="inputAddress">Chercher une date</label>
+                                    <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                  </div> 
+                                  <div class="row">
+                                    <div class="col">
+                                      <div class="form-group">
+                                        <label for="inlineFormCustomSelect">De</label>
+                                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                          <option selected>00</option>
+                                          <option value="1">01</option>
+                                          <option value="2">02</option>
+                                          <option value="3">03</option>
+                                          <option value="3">04</option>
+                                          <option value="3">05</option>
+                                          <option value="3">06</option>
+                                          <option value="3">07</option>
+                                          <option value="3">08</option>
+                                        </select>
+                                      </div>
+                                    </div>  
+                                    <div class="col">
+                                      <div class="form-group">
+                                        <label for="inlineFormCustomSelect">A</label>
+                                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                          <option selected>00</option>
+                                          <option value="1">01</option>
+                                          <option value="2">02</option>
+                                          <option value="3">03</option>
+                                          <option value="3">04</option>
+                                          <option value="3">05</option>
+                                          <option value="3">06</option>
+                                          <option value="3">07</option>
+                                          <option value="3">08</option>
+                                        </select>
+                                      </div>
+                                    </div>  
+                                                                        
+                                  </div> 
+                                  <button type="submit" class="btn btn-success">Envoyer</button>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn btn-primary">Enregistrer</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         </div>
                     </p>
                     </div>
@@ -123,18 +224,19 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-            <div class="card mb-3" style="max-width: 1080px">
+            <div class="card mb-3" style="max-width: 1080px" id="carte-color">
                 <div class="row no-gutters">
                 <div class="col-md-4">
                     <img
                     src="images/tennis/gilda-gonzalez-BA5OQErJ7QE-unsplash.jpg"
                     class="card-img"
                     alt="..."
+                    style="height: 20rem;"
                     />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                    <h5 class="card-title">Tennis Club de Tunis</h5>
+                    <h5 class="card-title" style="font-family: 'Changa', sans-serif">Tennis Club de Tunis</h5>
                     <p class="card-text">
                         Le tennis club de Tunis fondé en 1923 et affilié à la fédération tunisienne de tennis. Il principalement  comprend 11 courts de tennis en terre battue éclairés dont un central de 2500 places.
                     </p>
@@ -146,7 +248,7 @@
                     <p class="card-text">
                         <div class="row">
                             <div class="col-md-5"></div>
-                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>13DT/heure</div>
+                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>13 TND / heure</div>
                         </div>
                         <div class="row">
                             <div class="col-md-5"></div>
@@ -168,18 +270,19 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-            <div class="card mb-3" style="max-width: 1080px">
+            <div class="card mb-3"style="max-width: 1080px" id="carte-color">
                 <div class="row no-gutters">
                 <div class="col-md-4">
                     <img
                     src="images/tennis/hermes-rivera-newhL3aprGk-unsplash.jpg"
                     class="card-img"
                     alt="..."
+                    style="height: 20rem;"
                     />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                    <h5 class="card-title">Tennis Club de Megrine</h5>
+                    <h5 class="card-title" style="font-family: 'Changa', sans-serif">Tennis Club de Megrine</h5>
                     <p class="card-text">
                         Le tennis club de Mégrine fondé en 1983 et affilié à la fédération tunisienne de tennis. Doté de 6 courts, d’un Club House, et d’une salle de Fitness pour le grand plaisir de tous.
                     </p>
@@ -190,7 +293,7 @@
                     <p class="card-text">
                         <div class="row">
                             <div class="col-md-5"></div>
-                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>14DT/heure</div>
+                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>14 TND / heure</div>
                         </div>
                         <div class="row">
                             <div class="col-md-5"></div>
@@ -212,18 +315,19 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-            <div class="card mb-3" style="max-width: 1080px">
+            <div class="card mb-3" style="max-width: 1080px" id="carte-color">
                 <div class="row no-gutters">
                 <div class="col-md-4">
                     <img
                     src="images/tennis/johannes-mandle-wMeDuqBKVE0-unsplash.jpg"
                     class="card-img"
                     alt="..."
+                    style="height: 20rem;"
                     />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                    <h5 class="card-title">Tennis Club de Bizerte</h5>
+                    <h5 class="card-title" style="font-family: 'Changa', sans-serif">Tennis Club de Bizerte</h5>
                     <p class="card-text">
                         Le tennis club de Bizerte fondé en 1936 et  affilié à la fédération tunisienne de tennis. Il dispose de plusieurs terrains de tennis.
                     </p>
@@ -234,7 +338,7 @@
                     <p class="card-text">
                         <div class="row">
                             <div class="col-md-5"></div>
-                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>12Dt/heure </div>
+                            <div class="col-md-7"><i class="fas fa-tags pr-2"></i>12 TND / heure </div>
                         </div>
                         <div class="row">
                             <div class="col-md-5"></div>
@@ -260,28 +364,12 @@
             </div>
         </div>
     </div>
-    <!-- ./Catégorie Football -->
+    <!-- ./Catégorie Tennis -->
 
     <!-- footer -->
     <div class="container-fluid text-white bg-dark py-5 px-5">
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-3">
-          <div class="row">
-            <h2 class="mb-5 ml-5 px-2">Suivez-nous</h2>
-          </div>
-          <div class="d-flex justify-content-center">
-            <div class="row w-50 d-flex justify-content-center">
-              <div class="col-md-6 text-center pb-3">
-                <i class="fab fa-facebook-f fa-2x"></i>
-              </div>
-              <div class="col-md-6 text-center pb-3">
-                <i class="fab fa-instagram fa-2x"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4"></div>
         <div class="col-md-3">
           <div class="row">
             <h2 class="mb-3">Adresse</h2>
@@ -304,12 +392,72 @@
             </div>
           </div>
         </div>
+        <div class="col-md-4">
+          <div class="row d-flex justify-content-center">
+            <h2 class="mb-3">Liens Utiles</h2>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <ul>
+              <li><a id="lien2" href="index.html">Accueil</a></li>
+              <li>
+                <a id="lien2" href="football.html">Terrains de Football</a>
+              </li>
+              <li><a id="lien2" href="tennis.html">Terrains de Tennis</a></li>
+              <li>
+                <a id="lien2" href="handball.html">Terrains de Handball</a>
+              </li>
+              <li>
+                <a id="lien2" href="basketball.html">Terrains de Basketball</a>
+              </li>
+              <li><a id="lien2" href="about.html">A propos</a></li>
+              <li><a id="lien2" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row">
+            <h2 class="mb-3">Newsletter</h2>
+            <p>Recevez nos meilleures offres par Email:</p>
+            <div class="input-group mb-5">
+              <button type="button" class="btn btn-warning">S'inscrire</button>
+              <input
+                type="text"
+                class="form-control"
+                id="basic-url"
+                aria-describedby="basic-addon3"
+                placeholder="Votre adresse mail ici"
+              />
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <h2 class="mb-5 ml-5 px-2">Suivez-nous</h2>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-4 col-4 text-center">
+                <a href="https://www.facebook.com/home.php"
+                  ><i class="fab fa-facebook-f fa-2x facebook"></i
+                ></a>
+              </div>
+              <div class="col-md-4 col-4 text-center">
+                <a href="https://www.instagram.com/"
+                  ><i class="fab fa-instagram fa-2x insta"></i
+                ></a>
+              </div>
+              <div class="col-md-4 col-4 text-center">
+                <a href="https://www.youtube.com/"
+                  ><i class="fab fa-youtube fa-2x youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-md-1"></div>
       </div>
       <hr />
       <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
-          Copyright 2020 Need4Sport
+          Copyright 2020 NeedForSport
         </div>
       </div>
     </div>

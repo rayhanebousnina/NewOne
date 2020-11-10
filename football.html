@@ -9,7 +9,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
       rel="stylesheet"
     />
-    <title>Need4Sport</title>
+    <link rel="icon" type="image/png" href="/images/2rayhane.png" />
+    <title>NeedForSport</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -37,7 +38,7 @@
         <ul class="navbar-nav ml-auto pr-5">
           <li class="nav-item">
             <a class="nav-link" href="index.html"
-              >Accueil<span class="sr-only">(current)</span></a
+              >Accueil</a
             >
           </li>          
           <li class="nav-item">
@@ -75,23 +76,27 @@
       </div>
     </nav>
     <!-- ./Navbar -->
+    <br>
+    <br>
+    <br>
     <!-- Catégorie Football -->
     <div class="container my-5">
-      <div class="row my-4"><h3>Les terrains de football</h3></div>
+      <div class="row my-4 d-flex justify-content-center"><h1 style="font-family: 'Changa', sans-serif">Les terrains de Football</h1></div>
       <div class="row">
         <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
-                  src="images/foot/pexels-alexander-nadrilyanski-3651672.jpg"
+                  src="images/foot/pexels-alexander-nadrilyanski-3684116.jpg"
                   class="card-img"
                   alt="..."
+                  
                 />
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Terrain Lake Club</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain Lake Club</h5>
                   <p class="card-text">
                     Un des meilleurs terrains de foot sur Tunis, situé aux
                     berges du lac à côté de Chili's. Le Lake club met à votre
@@ -167,52 +172,47 @@
                                         aria-describedby="emailHelp"
                                       />
                                     </div>
-                                  </div>
-                                  <div class="col">
-                                    <div class="form-group">
-                                      <label for="exampleInputPassword1">Mot de passe</label>
-                                      <input
-                                        type="password"
-                                        class="form-control"
-                                        id="exampleInputPassword1"
-                                      />
-                                      <small id="passwordHelpInline" class="text-muted">
-                                        Doit contenir entre 8 et 20 caractères.
-                                      </small>
-                                    </div>
-                                  </div>
-                                </div>
+                                  </div>                                      
+                                </div> 
                                 <div class="form-group">
-                                  <label for="comment">Message</label>
-                                  <textarea
-                                    class="form-control"
-                                    rows="5"
-                                    id="comment"
-                                    name="text"
-                                  ></textarea>
-                                </div>
+                                  <label for="inputAddress">Chercher une date</label>
+                                  <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div> 
                                 <div class="row">
                                   <div class="col">
-                                    <div class="form-group form-check">
-                                      <input
-                                        type="checkbox"
-                                        class="form-check-input"
-                                        id="exampleCheck1"
-                                      />
-                                      <label class="form-check-label" for="exampleCheck1"
-                                        >Je ne suis pas un robot</label
-                                      >
+                                    <div class="form-group">
+                                      <label for="inlineFormCustomSelect">De</label>
+                                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="3">04</option>
+                                        <option value="3">05</option>
+                                        <option value="3">06</option>
+                                        <option value="3">07</option>
+                                        <option value="3">08</option>
+                                      </select>
                                     </div>
-                                  </div>
+                                  </div>  
                                   <div class="col">
-                                    <img
-                                      src="images/recaptcha.png"
-                                      alt=""
-                                      height="50rem"
-                                      width="auto"
-                                    />
-                                  </div>
-                                </div>
+                                    <div class="form-group">
+                                      <label for="inlineFormCustomSelect">A</label>
+                                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="3">04</option>
+                                        <option value="3">05</option>
+                                        <option value="3">06</option>
+                                        <option value="3">07</option>
+                                        <option value="3">08</option>
+                                      </select>
+                                    </div>
+                                  </div>  
+                                                                      
+                                </div> 
                                 <button type="submit" class="btn btn-success">Envoyer</button>
                               </form>
                             </div>
@@ -223,6 +223,7 @@
                           </div>
                         </div>
                       </div>
+                      
                     </div>
                 </p>
                 </div>
@@ -233,7 +234,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
@@ -244,7 +245,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Terrain Olympysky Club</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain Olympysky Club</h5>
                   <p class="card-text">
                     A mi-chemin entre l’Aouina, les berges du lac et les jardins
                     du lac, ce complexe sportif ultra-moderne est facile d’accès
@@ -261,7 +262,7 @@
                   <p class="card-text">
                     <div class="row">
                         <div class="col-md-5"></div>
-                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i> 5+1: entre 10 et 11 TND <br>
+                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i>5+1: entre 10 et 11 TND <br>
 
                             <i class="fas fa-tags pr-3"></i>6+1: entre 11 et 12  TND</div>
                     </div>
@@ -285,7 +286,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
@@ -296,7 +297,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Terrain Club des Princes</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain Club des Princes</h5>
                   <p class="card-text">
                     Situé au cœur de la Soukra, à 5 min de l'Ariana (juste à
                     côté de Kiabi), ce centre sportif est doté d’un terrain de
@@ -310,7 +311,7 @@
                   <p class="card-text">
                     <div class="row">
                         <div class="col-md-5"></div>
-                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i> 5+1: 5.5 TND<br>
+                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i>5+1: 5.5 TND<br>
 
                             <i class="fas fa-tags pr-3"></i>6+1: 6 TND</div>
                     </div>
@@ -334,7 +335,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
@@ -345,7 +346,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Terrain Marselone</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain Marselone</h5>
                   <p class="card-text">
                     C’est sans doute le terrain branché par excellence, situé
                     dans le quartier huppé de La Marsa, cet espace est idéal
@@ -453,17 +454,17 @@
               <h2 class="mb-5 ml-5 px-2">Suivez-nous</h2>
             </div>
             <div class="row d-flex justify-content-center">
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 col-4 text-center">
                 <a href="https://www.facebook.com/home.php"
                   ><i class="fab fa-facebook-f fa-2x facebook"></i
                 ></a>
               </div>
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 col-4 text-center">
                 <a href="https://www.instagram.com/"
                   ><i class="fab fa-instagram fa-2x insta"></i
                 ></a>
               </div>
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 col-4 text-center">
                 <a href="https://www.youtube.com/"
                   ><i class="fab fa-youtube fa-2x youtube"></i
                 ></a>
@@ -476,7 +477,7 @@
       <hr />
       <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
-          Copyright 2020 Need4Sport
+          Copyright 2020 NeedForSport
         </div>
       </div>
     </div>

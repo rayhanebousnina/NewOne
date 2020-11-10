@@ -9,7 +9,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
       rel="stylesheet"
     />
-    <title>Need4Sport</title>
+    <link rel="icon" type="image/png" href="/images/2rayhane.jpg" />
+    <title>NeedForSport</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -35,7 +36,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto pr-5">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Accueil</a>
           </li>
           <li class="nav-item">
@@ -73,31 +74,150 @@
       </div>
     </nav>
     <!-- ./Navbar -->
-    <!-- Catégorie Football -->
+    <br>
+    <br>
+    <br>
+    <!-- Catégorie Handball -->
     <div class="container my-5">
-      <div class="row my-4"><h3>Les terrains de football</h3></div>
+      <div class="row my-4 d-flex justify-content-center"><h1 style="font-family: 'Changa', sans-serif">Les terrains de Handball</h1></div>
       <div class="row">
-        <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+        <div class="col-md-12 h-100">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
-                  src="images/foot/pexels-alexander-nadrilyanski-3651672.jpg"
+                  src="images/hand/claudio-schwarz-purzlbaum-nnqjar0kQtI-unsplash.jpg"
                   class="card-img"
                   alt="..."
                 />
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain Salambo</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Un des meilleurs terrains de hand sur Tunis, le terrain Salambo est ouvert tout l'année, en libre accès, Ce terrain est bien équipé: des ballons, dossards et eau.
+                    
                   </p>
+                  <i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i><i class="far fa-star star"></i>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i>10 TND / Heure</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-map-marker-alt pr-3"></i>Rue Ammar El Hajji El Menzah 9</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-5"></div>
+                      <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i> 71 871 206</div>
+                    </div>
+                    <div class="row mt-3 mr-3 d-flex justify-content-end">     
+                      <!-- Button trigger modal -->                   
+                      <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#exampleModal1">Réserver ce terrain</button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Réserver ce terrain</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label for="exampleInputFirstName">Nom</label>
+                                      <input
+                                        type="text"
+                                        class="form-control"
+                                        id="exampleInputFirstName"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label for="exampleInputLasttName">Prénom</label>
+                                      <input
+                                        type="text"
+                                        class="form-control"
+                                        id="exampleInputLastName"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Adresse mail</label>
+                                      <input
+                                        type="email"
+                                        class="form-control"
+                                        id="exampleInputEmail1"
+                                        aria-describedby="emailHelp"
+                                      />
+                                    </div>
+                                  </div>                                      
+                                </div> 
+                                <div class="form-group">
+                                  <label for="inputAddress">Chercher une date</label>
+                                  <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div> 
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label for="inlineFormCustomSelect">De</label>
+                                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="3">04</option>
+                                        <option value="3">05</option>
+                                        <option value="3">06</option>
+                                        <option value="3">07</option>
+                                        <option value="3">08</option>
+                                      </select>
+                                    </div>
+                                  </div>  
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label for="inlineFormCustomSelect">A</label>
+                                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="3">04</option>
+                                        <option value="3">05</option>
+                                        <option value="3">06</option>
+                                        <option value="3">07</option>
+                                        <option value="3">08</option>
+                                      </select>
+                                    </div>
+                                  </div>  
+                                                                      
+                                </div> 
+                                <button type="submit" class="btn btn-success">Envoyer</button>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                              <button type="button" class="btn btn-primary">Enregistrer</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                </p>
                 </div>
               </div>
             </div>
@@ -106,26 +226,43 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
-                  src="images/foot/pexels-alexander-nadrilyanski-3651674.jpg"
+                  src="images/hand/dan-gold-JG-smgEkxJ4-unsplash.jpg"
                   class="card-img"
                   alt="..."
                 />
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain All Stars</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Terrain All Stars  permet de reproduire, en événementiel, des conditions de jeu similaire à un terrain de handball classique. Il est modulable et entièrement personnalisable ce qui en fait un véritable outil de communication.                    
                   </p>
+                  <i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i> 15 TND / Heure</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-map-marker-alt pr-3"></i>2, Rue du 2 Mars 1934 La Goulette </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-5"></div>
+                      <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i>71 735 440</div>
+                    </div>
+                    <div class="row mt-3 mr-3 d-flex justify-content-end">                        
+                      <button class="btn btn-outline-primary btn-sm">Réserver ce terrain</button>
+                    </div>
+                </p>
                 </div>
               </div>
             </div>
@@ -134,26 +271,42 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
-                  src="images/foot/pexels-alexander-nadrilyanski-3684116.jpg"
+                  src="images/hand/pascal-swier-otuM-nw-_NY-unsplash.jpg"
                   class="card-img"
                   alt="..."
                 />
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain Casa</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Défiez vos amis ou vos proches dans un match de handball 3vs3 dans notre Cage Handball. Terrain Casa est sans doute le terrain branché par excellence, équipé de ballons, dossards, des salles de vestiaires et des boissons à votre choix
                   </p>
+                  <i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="far fa-star pr-2 star"></i><i class="far fa-star star"></i>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i> 20 TND / Heure</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-map-marker-alt pr-3"></i> Avenue Iben Nadim Monplaisir </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-5"></div>
+                      <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i>71 904 998</div>
+                    </div>
+                    <div class="row mt-3 mr-3 d-flex justify-content-end">                        
+                      <button class="btn btn-outline-primary btn-sm">Réserver ce terrain</button>
+                    </div>
+                </p>
                 </div>
               </div>
             </div>
@@ -162,25 +315,41 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="card mb-3" style="max-width: 1080px">
+          <div class="card mb-3" style="max-width: 1080px" id="carte-color">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img
-                  src="images/foot/pexels-amber-faust-3006119.jpg"
+                  src="images/hand/ildar-garifullin-XEFfYl44Abo-unsplash.jpg"
                   class="card-img"
                   alt="..."
                 />
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-family: 'Changa', sans-serif">Terrain Maritton</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Situé dans l'un des endroits les plus sûrs de tunis. Equipements : 4 buts de futsal, 2 buts de handball
                   </p>
+                  <i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="fas fa-star pr-2 star"></i
+                  ><i class="far fa-star pr-2 star"></i><i class="far fa-star star"></i>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-tags pr-3"></i> 14 TND / Heure </div>
+                    </div>
+                      <div class="row">
+                          <div class="col-md-5"></div>
+                          <div class="col-md-7"><i class="fas fa-map-marker-alt pr-3"></i>Rue Ibn Al Jazzar Ksar Said 2 Tunis</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i>71 586 022</div>
+                      </div>
+                      <div class="row mt-3 mr-3 d-flex justify-content-end">                        
+                        <button class="btn btn-outline-primary btn-sm">Réserver ce terrain</button>
+                      </div>
                   </p>
                 </div>
               </div>
@@ -188,13 +357,13 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mr-3">
         <div class="col-md-12 d-flex justify-content-end">
           <button class="btn btn-primary">Voir plus</button>
         </div>
       </div>
     </div>
-    <!-- ./Catégorie Football -->
+    <!-- ./Catégorie Handball -->
     <!-- footer -->
     <div class="container-fluid text-white bg-dark py-5 px-5">
       <div class="row">
@@ -263,17 +432,17 @@
               <h2 class="mb-5 ml-5 px-2">Suivez-nous</h2>
             </div>
             <div class="row d-flex justify-content-center">
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 col-4 text-center">
                 <a href="https://www.facebook.com/home.php"
                   ><i class="fab fa-facebook-f fa-2x facebook"></i
                 ></a>
               </div>
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 col-4 text-center">
                 <a href="https://www.instagram.com/"
                   ><i class="fab fa-instagram fa-2x insta"></i
                 ></a>
               </div>
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 col-4 text-center">
                 <a href="https://www.youtube.com/"
                   ><i class="fab fa-youtube fa-2x youtube"></i
                 ></a>
@@ -286,7 +455,7 @@
       <hr />
       <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
-          Copyright 2020 Need4Sport
+          Copyright 2020 NeedForSport
         </div>
       </div>
     </div>

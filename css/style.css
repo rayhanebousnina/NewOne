@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap");
+
 .nav-item:hover {
   background-color: #ffc107;
   text-decoration: none;
@@ -6,6 +8,7 @@
 .bg-noir {
   background-color: #000000c0;
   border-radius: 0.4rem;
+  
 }
 .number {
   font-size: 2rem;
@@ -63,16 +66,57 @@
 }
 .insta {
   color: transparent;
-  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -o-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   background-clip: text;
   -webkit-background-clip: text;
 }
 .youtube {
-  color: #CC181E; 
+  color: #cc181e;
 }
 .facebook {
-  color: #2D609B;
+  color: #2d609b;
+}
+#carte {
+  max-width: 1080px; 
+  height: 20rem;
+  background-color: rgb(191 214 238 / 25%);
+}
+#carte-color {
+  background-color: rgb(191 214 238 / 25%);
+}
+h1.long {
+  min-height: 25rem;
 }
