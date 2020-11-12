@@ -77,7 +77,11 @@
     <br>
     <!-- Catégorie Tennis -->
     <div class="container my-5">
-      <div class="row my-4 d-flex justify-content-center"><h1 style="font-family: 'Changa', sans-serif">Les terrains de Tennis</h1></div>
+      <div class="row my-4 d-flex justify-content-center">
+        <div class="col-md-12">
+          <h1 style="font-family: 'Changa', sans-serif">Les terrains de Tennis</h1>
+        </div>        
+      </div>
         <div class="row">
             <div class="col-md-12">
             <div class="card mb-3" style="max-width: 1080px" id="carte-color">
@@ -117,7 +121,7 @@
                         </div>
                         <div class="row mt-3 mr-3 d-flex justify-content-end">          
                         <!-- Button trigger modal -->                   
-                      <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#exampleModal1">Réserver ce terrain</button>
+                      <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#exampleModal1">Réserver ce terrain</button>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog">
@@ -259,7 +263,7 @@
                         <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i> 71 894 487</div>
                         </div>
                         <div class="row mt-3 mr-3 d-flex justify-content-end">                        
-                        <button class="btn btn-outline-primary btn-sm">Réserver ce terrain</button>
+                        <button class="btn btn-warning btn-sm">Réserver ce terrain</button>
                         </div>
                     </p>
                     </div>
@@ -304,7 +308,7 @@
                         <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i>71 432 350</div>
                         </div>
                         <div class="row mt-3 mr-3 d-flex justify-content-end">                        
-                        <button class="btn btn-outline-primary btn-sm">Réserver ce terrain</button>
+                        <button class="btn btn-warning btn-sm">Réserver ce terrain</button>
                         </div>
                     </p>
                     </div>
@@ -349,7 +353,7 @@
                             <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i>58 123 000</div>
                         </div>
                         <div class="row mt-3 mr-3 d-flex justify-content-end">                        
-                            <button class="btn btn-outline-primary btn-sm">Réserver ce terrain</button>
+                            <button class="btn btn-warning btn-sm">Réserver ce terrain</button>
                         </div>
                     </p>
                     </div>
@@ -358,10 +362,26 @@
             </div>
             </div>
         </div>
-        <div class="row mr-3">
-            <div class="col-md-12 d-flex justify-content-end">
-            <button class="btn btn-primary">Voir plus</button>
-            </div>
+        <div class="row mr-3 d-flex justify-content-center">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
     </div>
     <!-- ./Catégorie Tennis -->

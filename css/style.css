@@ -35,7 +35,7 @@
   width: auto;
 }
 .bg-img {
-  background-color: rgb(226, 216, 218);
+  background-color:rgb(162 241 101 / 30%);
 
   border-radius: 1.2rem;
 }
@@ -57,7 +57,7 @@
 }
 #lien {
   text-decoration: none;
-  color: rgb(65, 62, 62);
+  color: #1b1b1b;
   font-weight: bold;
 }
 #lien2 {
@@ -115,7 +115,7 @@
   background-color: rgb(191 214 238 / 25%);
 }
 #carte-color {
-  background-color: rgb(191 214 238 / 25%);
+  background-color: rgb(162 241 101 / 30%);
 }
 h1.long {
   min-height: 25rem;
