@@ -120,104 +120,132 @@
                         <div class="col-md-7"><i class="fas fa-phone-square-alt pr-3"></i>71 734 129</div>
                         </div>
                         <div class="row mt-3 mr-3 d-flex justify-content-end">          
-                        <!-- Button trigger modal -->                   
-                      <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#exampleModal1">Réserver ce terrain</button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Réserver ce terrain</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                <form>
-                                  <div class="row">
-                                    <div class="col">
-                                      <div class="form-group">
-                                        <label for="exampleInputFirstName">Nom</label>
-                                        <input
-                                          type="text"
-                                          class="form-control"
-                                          id="exampleInputFirstName"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col">
-                                      <div class="form-group">
-                                        <label for="exampleInputLasttName">Prénom</label>
-                                        <input
-                                          type="text"
-                                          class="form-control"
-                                          id="exampleInputLastName"
-                                        />
-                                      </div>
+                          <!-- Button trigger modal -->                   
+                          <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#exampleModal1">Réserver ce terrain</button>
+                          <!-- Modal -->
+                      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel" style="font-family: 'Changa', sans-serif">Réserver ce terrain</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group"><i class="far fa-user"></i>
+                                      <label for="exampleInputFirstName" style="font-family: 'Changa', sans-serif">Nom</label>
+                                      <input
+                                        type="text"
+                                        class="form-control"
+                                        id="exampleInputFirstName"
+                                      />
                                     </div>
                                   </div>
-                                  <div class="row">
-                                    <div class="col">
-                                      <div class="form-group">
-                                        <label for="exampleInputEmail1">Adresse mail</label>
-                                        <input
-                                          type="email"
-                                          class="form-control"
-                                          id="exampleInputEmail1"
-                                          aria-describedby="emailHelp"
-                                        />
-                                      </div>
-                                    </div>                                      
-                                  </div> 
-                                  <div class="form-group">
-                                    <label for="inputAddress">Chercher une date</label>
-                                    <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                                  </div> 
-                                  <div class="row">
-                                    <div class="col">
-                                      <div class="form-group">
-                                        <label for="inlineFormCustomSelect">De</label>
-                                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                          <option selected>00</option>
-                                          <option value="1">01</option>
-                                          <option value="2">02</option>
-                                          <option value="3">03</option>
-                                          <option value="3">04</option>
-                                          <option value="3">05</option>
-                                          <option value="3">06</option>
-                                          <option value="3">07</option>
-                                          <option value="3">08</option>
-                                        </select>
-                                      </div>
-                                    </div>  
-                                    <div class="col">
-                                      <div class="form-group">
-                                        <label for="inlineFormCustomSelect">A</label>
-                                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                          <option selected>00</option>
-                                          <option value="1">01</option>
-                                          <option value="2">02</option>
-                                          <option value="3">03</option>
-                                          <option value="3">04</option>
-                                          <option value="3">05</option>
-                                          <option value="3">06</option>
-                                          <option value="3">07</option>
-                                          <option value="3">08</option>
-                                        </select>
-                                      </div>
-                                    </div>  
-                                                                        
-                                  </div> 
-                                  <button type="submit" class="btn btn-success">Envoyer</button>
-                                </form>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                                <button type="button" class="btn btn-primary">Enregistrer</button>
-                              </div>
+                                  <div class="col">
+                                    <div class="form-group"><i class="far fa-user"></i>
+                                      <label for="exampleInputLasttName" style="font-family: 'Changa', sans-serif">Prénom</label>
+                                      <input
+                                        type="text"
+                                        class="form-control"
+                                        id="exampleInputLastName"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group"><i class="fas fa-envelope-open-text"></i>
+                                      <label for="exampleInputEmail1" style="font-family: 'Changa', sans-serif">Adresse mail</label>
+                                      <input
+                                        type="email"
+                                        class="form-control"
+                                        id="exampleInputEmail1"
+                                        aria-describedby="emailHelp"
+                                      />
+                                    </div>
+                                  </div>   
+                                  <div class="col">
+                                    <div class="form-group"><i class="fas fa-mobile-alt"></i>
+                                      <label for="exampleInputTelephone1" style="font-family: 'Changa', sans-serif">Téléphone</label>
+                                      <input
+                                        type="tel"
+                                        class="form-control"
+                                        id="exampleInputTelephone1"
+                                      />
+                                    </div>
+                                  </div>                                   
+                                </div>
+                                <div class="row"> 
+                                  <div class="col">
+                                    <div class="form-group"><i class="fas fa-calendar-alt"></i>
+                                      <label for="inputAddress" style="font-family: 'Changa', sans-serif">Chercher une date</label>
+                                      <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="form-group"><i class="fas fa-users"></i>
+                                      <label for="inlineFormCustomSelect" style="font-family: 'Changa', sans-serif">Nombre de personne</label>
+                                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="3">04</option>
+                                        <option value="3">05</option>
+                                        <option value="3">06</option>
+                                        <option value="3">07</option>                                        
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div> 
+                                 
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group"><i class="fas fa-clock"></i>
+                                      <label for="inlineFormCustomSelect" style="font-family: 'Changa', sans-serif">De</label>
+                                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="3">04</option>
+                                        <option value="3">05</option>
+                                        <option value="3">06</option>
+                                        <option value="3">07</option>
+                                        <option value="3">08</option>
+                                      </select>
+                                    </div>
+                                  </div>  
+                                  <div class="col">
+                                    <div class="form-group"><i class="fas fa-clock"></i>
+                                      <label for="inlineFormCustomSelect" style="font-family: 'Changa', sans-serif">A</label>
+                                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="3">04</option>
+                                        <option value="3">05</option>
+                                        <option value="3">06</option>
+                                        <option value="3">07</option>
+                                        <option value="3">08</option>
+                                      </select>
+                                    </div>
+                                  </div>                               
+                                </div>                                 
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="font-family: 'Changa', sans-serif">Annuler</button>
+                              <button type="button" class="btn btn-success" style="font-family: 'Changa', sans-serif">Réserver</button>
                             </div>
                           </div>
                         </div>
+                      </div>
                         </div>
                     </p>
                     </div>
